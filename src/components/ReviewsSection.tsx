@@ -1,21 +1,53 @@
 import { Star } from "lucide-react";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import reviewer1 from "@/assets/reviewer1.jpg";
+import reviewer2 from "@/assets/reviewer2.jpg";
+import reviewer3 from "@/assets/reviewer3.jpg";
+import reviewer4 from "@/assets/reviewer4.jpg";
 
 const ReviewsSection = () => {
   const reviews = [
     {
-      name: "Luh Moraes",
-      time: "há 23 minutos",
+      name: "Ana Carolina",
+      time: "há 15 minutos",
       rating: 5,
-      comment: "O som é tão potente que parece uma caixa de som profissional! A conexão Bluetooth é estável e o carregamento é bem rápido. Perfeita pra qualquer ocasião.",
-      initials: "LM",
+      comment: "Produto incrível! Chegou super rápido e a qualidade da imagem é surpreendente. Meus filhos adoraram assistir desenhos nessa TV retrô. Vale muito a pena!",
+      photo: reviewer1,
     },
     {
-      name: "Bela Prado",
-      time: "há 41 minutos",
+      name: "Ricardo Santos",
+      time: "há 28 minutos",
       rating: 5,
-      comment: "Incrível! A qualidade do som superou minhas expectativas. Muito resistente e o design é lindo. Recomendo muito!",
-      initials: "BP",
+      comment: "A nostalgia que essa TV traz é incrível! Funciona perfeitamente e o design retrô ficou lindo na minha sala. Recomendo demais!",
+      photo: reviewer2,
+    },
+    {
+      name: "Marcos Lima",
+      time: "há 1 hora",
+      rating: 5,
+      comment: "Excelente custo-benefício! A qualidade de som e imagem superou minhas expectativas. Perfeito para maratonas de séries!",
+      photo: reviewer3,
+    },
+    {
+      name: "Patricia Oliveira",
+      time: "há 2 horas",
+      rating: 5,
+      comment: "Amei! É compacta, bonita e funciona muito bem. Ótima para quarto ou escritório. A conexão é super estável.",
+      photo: reviewer4,
+    },
+    {
+      name: "João Pedro",
+      time: "há 3 horas",
+      rating: 5,
+      comment: "Produto de qualidade! Entrega rápida e embalagem impecável. A TV retrô dá um charme especial no ambiente.",
+      photo: reviewer2,
+    },
+    {
+      name: "Fernanda Costa",
+      time: "há 5 horas",
+      rating: 5,
+      comment: "Simplesmente perfeito! Design vintage maravilhoso e funciona perfeitamente. Minha família toda curtiu!",
+      photo: reviewer1,
     },
   ];
 
@@ -45,8 +77,9 @@ const ReviewsSection = () => {
           <div key={index} className="border-b pb-6 last:border-b-0">
             <div className="flex items-start gap-3 mb-3">
               <Avatar className="w-10 h-10">
+                <AvatarImage src={review.photo} alt={review.name} />
                 <AvatarFallback className="bg-muted text-foreground font-semibold">
-                  {review.initials}
+                  {review.name.split(" ").map(n => n[0]).join("")}
                 </AvatarFallback>
               </Avatar>
               <div className="flex-1">
