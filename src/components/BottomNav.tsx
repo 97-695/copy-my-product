@@ -15,12 +15,19 @@ const BottomNav = () => {
           <span className="text-xs">Chat</span>
         </button>
 
-        <Button variant="outline" className="flex-1 h-11 font-semibold">
+        <Button 
+          variant="outline" 
+          className="flex-1 h-11 font-semibold"
+          onClick={() => window.open('https://www.instagram.com/', '_blank')}
+        >
           <ShoppingCart className="w-4 h-4 mr-2" />
           Adicionar ao carrinho
         </Button>
 
-        <Button className="flex-1 h-11 bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-base">
+        <Button 
+          className="flex-1 h-11 bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-base"
+          onClick={() => window.open('https://www.instagram.com/', '_blank')}
+        >
           COMPRAR
         </Button>
       </div>
