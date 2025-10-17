@@ -36,15 +36,8 @@ const ReviewsSection = () => {
       photo: reviewer4,
     },
     {
-      name: "João Pedro",
-      time: "há 3 horas",
-      rating: 5,
-      comment: "Produto de qualidade! Entrega rápida e embalagem impecável. A TV retrô dá um charme especial no ambiente.",
-      photo: reviewer2,
-    },
-    {
       name: "Fernanda Costa",
-      time: "há 5 horas",
+      time: "há 3 horas",
       rating: 5,
       comment: "Simplesmente perfeito! Design vintage maravilhoso e funciona perfeitamente. Minha família toda curtiu!",
       photo: reviewer1,

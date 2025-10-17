@@ -1,10 +1,13 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import productImage from "@/assets/screen-grow.png";
+import productImage2 from "@/assets/product-image-2.png";
+import productImage3 from "@/assets/product-image-3.png";
 
 const ProductGallery = () => {
   const [currentImage, setCurrentImage] = useState(1);
-  const totalImages = 7;
+  const images = [productImage, productImage2, productImage3];
+  const totalImages = images.length;
 
   const nextImage = () => {
     setCurrentImage((prev) => (prev < totalImages ? prev + 1 : 1));
@@ -18,7 +21,7 @@ const ProductGallery = () => {
     <div className="relative bg-white">
       <div className="aspect-[4/3] flex items-center justify-center overflow-hidden">
         <img
-          src={productImage}
+          src={images[currentImage - 1]}
           alt="Screen Grow - Cinema na sua casa"
           className="w-full h-full object-contain"
         />
