@@ -37,11 +37,11 @@ const PriceSection = () => {
     <div className="bg-secondary px-4 py-3 flex items-center justify-between">
       <div>
         <div className="text-white text-3xl font-bold mb-1">
-          R$ 82,90
+          R$ 19,90
         </div>
         <div className="flex items-center gap-2 text-white/90 text-sm">
-          <span className="line-through">R$ 329,43</span>
-          <span className="font-semibold">Economize 72%</span>
+          <span className="line-through">R$ 79,90</span>
+          <span className="font-semibold">Economize 75%</span>
         </div>
       </div>
       

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import productImage from "@/assets/jbl-speaker.png";
+import productImage from "@/assets/screen-grow.png";
 
 const ProductGallery = () => {
   const [currentImage, setCurrentImage] = useState(1);
@@ -19,7 +19,7 @@ const ProductGallery = () => {
       <div className="aspect-[4/3] flex items-center justify-center overflow-hidden">
         <img
           src={productImage}
-          alt="JBL Boombox 4"
+          alt="Screen Grow - Cinema na sua casa"
           className="w-full h-full object-contain"
         />
       </div>

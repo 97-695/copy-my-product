@@ -9,7 +9,7 @@ const ProductInfo = () => {
           <span className="mr-1">⚡</span> OFERTA RELÂMPAGO
         </Badge>
         <h1 className="text-lg font-semibold leading-tight text-foreground">
-          Caixa de Som Bluetooth À Prova D'água Boombox 4 JBL - Voltagem: 127/220V
+          Screen Grow (Cinema na sua casa)
         </h1>
       </div>
 
