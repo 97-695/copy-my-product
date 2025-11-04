@@ -9,7 +9,7 @@ const ProductInfo = () => {
           <span className="mr-1">⚡</span> OFERTA RELÂMPAGO
         </Badge>
         <h1 className="text-lg font-semibold leading-tight text-foreground">
-          Screen Grow (Cinema na sua casa)
+          Alexa echo show 5
         </h1>
       </div>
 
@@ -27,7 +27,7 @@ const ProductInfo = () => {
       <div className="flex items-start gap-3 pt-2 border-t">
         <Truck className="w-6 h-6 mt-1 shrink-0" />
         <div>
-          <div className="font-semibold text-foreground">Receba até 20–25 de out.</div>
+          <div className="font-semibold text-foreground">Receba 10 a 15 dias</div>
           <div className="text-sm">
             Taxa de envio: <span className="text-accent font-semibold">Grátis</span>
           </div>
