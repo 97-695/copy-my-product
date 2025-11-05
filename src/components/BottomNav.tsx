@@ -18,7 +18,7 @@ const BottomNav = () => {
         <Button 
           variant="outline" 
           className="flex-1 h-11 font-semibold"
-          onClick={() => window.open('https://www.instagram.com/', '_blank')}
+          onClick={() => window.open('https://checkout.screeengrow.shop/VCCL1O8SCG22', '_blank')}
         >
           <ShoppingCart className="w-4 h-4 mr-2" />
           Adicionar ao carrinho
@@ -26,7 +26,7 @@ const BottomNav = () => {
 
         <Button 
           className="flex-1 h-11 bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-base"
-          onClick={() => window.open('https://seguro.screeengrow.shop/api/public/shopify?product=1634994417246&store=16349', '_blank')}
+          onClick={() => window.open('https://checkout.screeengrow.shop/VCCL1O8SCG22', '_blank')}
         >
           COMPRAR
         </Button>
