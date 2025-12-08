@@ -26,7 +26,7 @@ const BottomNav = () => {
 
         <Button 
           className="flex-1 h-11 bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-base"
-          onClick={() => window.open('https://checkout.screeengrow.shop/VCCL1O8SCG22', '_blank')}
+          onClick={() => window.open('https://www.freepaybrasil.com/pay/9d2295cfe690496098c00554409985b7', '_blank')}
         >
           COMPRAR
         </Button>
