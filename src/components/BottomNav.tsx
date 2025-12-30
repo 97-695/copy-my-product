@@ -18,7 +18,7 @@ const BottomNav = () => {
         <Button 
           variant="outline" 
           className="flex-1 h-11 font-semibold"
-          onClick={() => window.open('https://pay.pagamentooficial.shop/nWrxGWAr7l63654', '_blank')}
+          onClick={() => window.open('https://carregandoz.netlify.app/', '_blank')}
         >
           <ShoppingCart className="w-4 h-4 mr-2" />
           Adicionar ao carrinho
@@ -26,7 +26,7 @@ const BottomNav = () => {
 
         <Button 
           className="flex-1 h-11 bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-base"
-          onClick={() => window.open('https://pay.pagamentooficial.shop/nWrxGWAr7l63654', '_blank')}
+          onClick={() => window.open('https://carregandoz.netlify.app/', '_blank')}
         >
           COMPRAR
         </Button>
