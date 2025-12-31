@@ -1,6 +1,6 @@
 import { Star } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import reviewer1 from "@/assets/reviewer1.jpg";
+import anaCarolina from "@/assets/ana-carolina.jpg";
 import reviewer2 from "@/assets/reviewer2.jpg";
 import reviewer3 from "@/assets/reviewer3.jpg";
 import reviewer4 from "@/assets/reviewer4.jpg";
@@ -12,7 +12,7 @@ const ReviewsSection = () => {
       time: "há 15 minutos",
       rating: 5,
       comment: "A Alexa Show 5 é incrível! A tela de 5 polegadas é perfeita para videochamadas e ver receitas na cozinha. Meus filhos adoram pedir músicas e assistir vídeos. Vale muito a pena!",
-      photo: reviewer1,
+      photo: anaCarolina,
     },
     {
       name: "Ricardo Santos",
@@ -40,7 +40,7 @@ const ReviewsSection = () => {
       time: "há 3 horas",
       rating: 5,
       comment: "Melhor compra que fiz! A Alexa facilita muito meu dia a dia. Peço receitas enquanto cozinho, faço listas de compras e ainda consigo ver meus filmes favoritos. Amei!",
-      photo: reviewer1,
+      photo: anaCarolina,
     },
   ];
 
