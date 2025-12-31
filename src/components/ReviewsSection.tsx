@@ -1,6 +1,7 @@
 import { Star } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import anaCarolina from "@/assets/ana-carolina.jpg";
+import reviewer1 from "@/assets/reviewer1.jpg";
 import reviewer2 from "@/assets/reviewer2.jpg";
 import reviewer3 from "@/assets/reviewer3.jpg";
 import reviewer4 from "@/assets/reviewer4.jpg";
@@ -40,7 +41,7 @@ const ReviewsSection = () => {
       time: "há 3 horas",
       rating: 5,
       comment: "Melhor compra que fiz! A Alexa facilita muito meu dia a dia. Peço receitas enquanto cozinho, faço listas de compras e ainda consigo ver meus filmes favoritos. Amei!",
-      photo: anaCarolina,
+      photo: reviewer1,
     },
   ];
 
